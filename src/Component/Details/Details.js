@@ -12,12 +12,12 @@ useEffect(() => {
     .then(res=>res.json())
     .then(data=>setSingleFood(data.meals[0]))
 },[])
-console.log(singleFood)
+// console.log(singleFood)
 const {strMealThumb,strMeal,strSource,strArea,strInstructions,strYoutube}=singleFood
 
  
     return (
-        <div className='detail py-20 px-24'>
+        <div className='detail py-20   px-24'>
             <img src={strMealThumb} alt="" className='h-full w-[95%] rounded-lg shadow-lg bg-slate-500' />
             <div>
             <h3 className='text-4xl my-1'>Name : {strMeal}</h3>

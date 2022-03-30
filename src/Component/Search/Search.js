@@ -24,7 +24,7 @@ const Search = () => {
         <div className="px-20 main">
             <h1 className="text-4xl">Search your favorite food !!!</h1>
             <input onChange={searchFood} type="text" className='border-violet-600 py-1 px-16 border-2 my-5 text-red-900 text-sm rounded-lg' placeholder="Search your favorite food "/>
-            <div className='search md:gap-5  p-5'>
+            <div className='search gap-5  p-5'>
             {
              meals.map(meal =><Meal meal={meal} key={meal.idMeal}></Meal>)
             }

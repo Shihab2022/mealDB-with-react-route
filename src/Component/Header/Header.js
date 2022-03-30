@@ -4,9 +4,10 @@ import './Header.css'
 
 const Header = () => {
     const logoUrl='https://webstockreview.net/images/clipart-restaurant-restaurant-logo-5.png';
+    const bannerUrl='https://www.ftswebdesign.com/wp-content/uploads/2017/05/5D3_4637.jpg'
     return (
 <div>
-<nav className="navManu bg-violet-600 py-3 mb-3">
+<nav className="navManu bg-violet-600 py-3 ">
 <img src={logoUrl} className="h-16 w-16 " alt="" />
       <div >
       <Link to='/' className='manu'>Home</Link>
@@ -16,6 +17,9 @@ const Header = () => {
  
   </nav>
 
+
+<img src={bannerUrl} className="banner-img" alt="" />
+<p className="copyRight ">Copy Right @ Md : Shihab Uddin</p>
 </div>
 
 

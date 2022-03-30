@@ -6,7 +6,7 @@ const Employee = () => {
     const [employers,setEmployers] =useState([])
 
     useEffect(() =>{
-        fetch('https://randomuser.me/api/?results=5')
+        fetch('https://randomuser.me/api/?results=250')
         .then(res=>res.json())
         .then(data=>setEmployers(data.results))
          },[])
