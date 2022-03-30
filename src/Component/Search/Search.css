@@ -1,4 +1,28 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .search{
     display:grid;
     grid-template-columns:repeat(5,1fr)
 }
+@media only screen and (max-width: 600px) {
+    .search{
+        display:grid;
+        grid-template-columns:auto;
+        /* padding:0; */
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .search div{
+        width:100%;
+        /* padding:0 !important; */
+    }
+   input{
+       padding-left:5px !important;
+       padding-right:0 !important; 
+    }
+
+} 
