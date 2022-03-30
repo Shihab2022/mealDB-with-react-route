@@ -1,0 +1,15 @@
+.navManu{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+.manu{
+    margin-left:20px;
+    font-size:24px;
+    color:white;
+    transition:.5s;
+}
+.manu:hover{
+    border-bottom: 3px solid ;
+}

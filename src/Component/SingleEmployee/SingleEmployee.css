@@ -1,0 +1,17 @@
+.employee{
+    display:flex;
+    justify-content:flex-start;
+   
+}
+
+@media only screen and (max-width: 600px) {
+
+    .employee{
+        display:flex;
+        justify-content:center;
+        /* flex-direction:row; */
+        align-items:center;
+    }
+
+
+}
